@@ -5,11 +5,11 @@ apply plugin: 'maven-publish'
 
 group = 'com.meowj'
 archivesBaseName = 'LangUtils'
-version = '1.9'
+version = '2.0'
 
-final def BUKKIT_VERSION = '1.12-R0.1-SNAPSHOT'
+final def BUKKIT_VERSION = '1.18-R0.1-SNAPSHOT'
 
-sourceCompatibility = '1.8'
+sourceCompatibility = '16'
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
 //noinspection GroovyAssignabilityCheck
